@@ -1,0 +1,956 @@
+body {
+    color: #333333;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+	background: url("../images/white_bed_sheet.png");
+}
+h1 {
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFFFFF;
+    direction: ltr;
+    display: inline-block;
+    float: none;
+    font-family: Montserrat,sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 13px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 2px 1px rgba(0, 0, 0, 0.24);
+    text-transform: capitalize;
+    width: 100%;
+}
+h2 {
+    background-color: rgba(0, 0, 0, 0.49);
+    color: #FFFFFF;
+    display: inline-block;
+    float: none;
+    font-family: Montserrat,sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 73px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 9px 13px 9px 100px;
+    text-align: left;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.24);
+}
+h3 {
+    color: #745785;
+    float: none;
+    font-family: Montserrat,sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 50px;
+    padding-top: 0;
+    text-align: center;
+    text-shadow: 0 1px 0 white;
+}
+h4 {
+    border-color: #000000;
+    border-width: 1px;
+    box-shadow: none;
+    color: #FFFFFF;
+    font-family: Montserrat,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 6px;
+    margin-left: 0;
+    margin-right: 0;
+    text-shadow: none;
+    transition: none 0s ease 0s;
+}
+h5 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+h6 {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    margin: 10px 0;
+}
+p {
+    color: #FFFFFF;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+img {
+    color: #FFFFFF;
+    display: inline-block;
+    float: none;
+    height: auto;
+    margin-bottom: 50px;
+    margin-top: 0;
+    max-width: 100%;
+    opacity: 1;
+    padding-bottom: 0;
+    padding-top: 0;
+    text-shadow: none;
+    vertical-align: middle;
+    width: 90%;
+}
+.button {
+    background-color: #745785;
+    background-image: none;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    display: block;
+    float: none;
+    font-family: Montserrat,sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin: 0 auto 18px;
+    padding: 12px 31px;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #55595C;
+    transition: all 200ms ease 0s;
+    width: 276px;
+}
+.button:hover {
+    background-color: #67214A;
+}
+.section {
+    background-image: url("../images/white_bed_sheet.png");
+    padding-bottom: 20px;
+    padding-top: 0;
+}
+.section.header {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: url("../images/white_bed_sheet.png");
+    left: 0;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10;
+}
+.section.footer {
+    background-attachment: fixed;
+    background-color: #F2F2F2;
+    background-image: url("../images/Exclusive_Luxury_Masterbedroom02.jpg");
+    background-position: 100% 0%;/*0% -60%;*/
+    background-size: cover;
+    border: 1px none black;
+    float: none;
+    height: 500px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 292px;
+}
+.nav-link {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 5px 5px 5px 5px;
+    color: #534E67;
+    float: left;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 10px 14px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 white;
+    text-transform: none;
+    transition: all 200ms ease 0s;
+    display: block;
+}
+.company-title {
+    background-color: rgba(0, 0, 0, 0);
+    color: #534E67;
+    font-family: Montserrat,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0;
+    /*margin-left: 40px;*/
+    margin-top: 6px;
+    padding-left: 0;
+    padding-top: 0;
+    text-shadow: 0 1px 0 white;
+    text-transform: none;
+    white-space: nowrap;
+}
+.nav-bar {
+    float: left;
+    font-weight: 700;
+    margin-top: 0;
+    padding-left: 44px;
+    padding-right: 0;
+    text-align: left;
+}
+.hero-bg {
+    background-attachment: fixed, scroll;
+    background-image: url("../images/Luxury_House_Portugal2_r2.jpg");
+    background-position: 100% 0%;/*50% 0%, 0 0;*/
+    /*background-size: cover, auto auto;*/
+    background-size: cover;
+    bottom: 0;
+    height: auto;
+    left: 0;
+    margin-bottom: 0;
+    min-height: 500px;
+    padding-top: 580px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: auto;
+}
+.hero-bg .w-container {
+    bottom: 40px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+}
+.hero-bg.content {
+    background-attachment: fixed;
+    min-height: 420px;
+    padding-top: 316px;
+}
+.subtitle {
+    color: #E1E2E1;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    padding-bottom: 0;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.24);
+    transform: none;
+    transition: none 0s ease 0s;
+    width: 100%;
+}
+.section-description {
+    font-size: 14px;
+}
+.snippet-img {
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 219px;
+}
+.snippet {
+    background-color: #F2F2F2;
+    border-radius: 5px 5px 5px 5px;
+    color: #000000;
+    display: block;
+    text-decoration: none;
+    transform: none;
+    transition: all 200ms ease 0s;
+}
+.snippet:hover {
+    background-color: #E8E8E8;
+    -webkit-transform: translate(0px, -5px);
+    transform: translate(0px, -5px);
+    transition: all 200ms ease 0s;
+}
+.right-col {
+    padding-top: 13px;
+    text-align: right;
+}
+.more-link {
+    border: 2px solid #C2C2C2;
+    border-radius: 5px 5px 5px 5px;
+    color: #9C9C9C;
+    font-size: 14px;
+    padding: 6px 8px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 200ms ease 0s;
+}
+.more-link:hover {
+    background-color: #008CFF;
+    border: 1px solid #008CFF;
+    color: #FFFFFF;
+    transition: all 200ms ease 0s;
+}
+.snippet-text-section {
+    background-color: #FFFFFF;
+    padding: 10px 12px !important;
+}
+.snippet-title {
+    color: #534E67;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 2px;
+    text-align: center;
+}
+.snippet-text {
+    color: #737373;
+    font-family: Montserrat,sans-serif;
+    line-height: 19px;
+    text-align: justify;
+}
+.snippet-row {
+    margin-bottom: 27px;
+    margin-top: 27px;
+}
+.button-column {
+    padding-top: 32px;
+    text-align: center;
+}
+.company-column {
+    padding-left: 0;
+    padding-right: 0;
+}
+.img-example {
+    float: none;
+    height: auto;
+    margin-bottom: 50px;
+    padding-top: 93px;
+    width: 90%;
+}
+.footer-link {
+    color: #745785;
+    float: left;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    margin-left: 0;
+    margin-right: 9px;
+    padding-bottom: 2px;
+    padding-left: 80px;
+    text-align: left;
+    text-decoration: none;
+    width: 100%;
+}
+.footer-nav-bar {
+    text-align: right;
+}
+.footer-text {
+    color: #534E67;
+    display: block;
+    float: none;
+    font-family: Montserrat,sans-serif;
+    margin: 0 auto;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-top: 17px;
+    text-align: right;
+    text-shadow: 0 1px 6px white;
+}
+.content-bg {
+	/*
+    background-attachment: fixed, fixed;
+    background-color: #D3D3D3;
+    background-image: url("../images/Exclusive_Luxury_Pool01.JPG");
+    
+    background-position: 100% 0;
+    background-size: cover;
+    min-height: 500px;
+    padding-top: 292px;*//*background-position: 29% 48%, 0 0;*/
+    
+    background-attachment: fixed, fixed;
+    background-image: url("../images/Exclusive_Luxury_Pool01.jpg");
+    background-position: 100% 0%;/*50% 0%, 0 0;*/
+    background-repeat: no-repeat;
+    /*background-size: cover, auto auto;*/
+    background-size: cover;
+    height: auto;
+    margin-bottom: 0;
+    min-height: 380px;
+    padding-top: 292px;
+    width: auto;
+}
+.content-bg.two {
+    background-image: url("../images/Luxury_Home_Interior01.jpg");
+    /*background-position: 0 50%, 0 0;*/
+}
+.example-image {
+    background-image: none;
+    height: auto;
+    margin-bottom: 0;
+    width: 100%;
+}
+.the-house {
+    margin-bottom: 10px;
+}
+.house-description {
+    background-color: rgba(0, 0, 0, 0);
+    color: #534E67;
+    display: block;
+    float: none;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 11px;
+    padding-left: 0;
+    padding-top: 8px;
+    text-align: justify;
+    text-shadow: 0 1px 0 white;
+    padding: 8px 10px 0;
+}
+.button-telephone {
+    background-color: #745785;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    float: none;
+    font-family: Montserrat,sans-serif;
+    font-size: 17px;
+    margin-bottom: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #55595C;
+    width: auto;
+}
+.button-telephone:hover {
+    background-color: #67214A;
+}
+.title {
+    color: #534E67;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0;
+    padding-top: 8px;
+    text-align: left;
+    text-shadow: 0 1px 0 white;
+}
+.oportunity-description {
+    color: #737373;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    margin-bottom: 12px;
+    padding-bottom: 0;
+    text-shadow: 0 1px 0 white;
+    text-align: left;
+}
+.contact-text {
+    color: #534E67;
+    float: left;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 2px;
+    padding-left: 80px;
+    padding-right: 0;
+    text-align: left;
+    text-shadow: 0 1px 6px white;
+    width: 100%;
+}
+.contacts {
+    margin-top: 24px;
+}
+.image-logo {
+    /*float: left;*/
+    margin-bottom: 0;
+    margin-right: 8px;
+    width: 30px;
+}
+.text {
+    color: #534E67;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.phone-number {
+    color: #534E67;
+    float: none;
+    font-family: Montserrat,sans-serif;
+    text-shadow: 0 1px 6px white;
+    transition: all 200ms ease 0s;
+}
+.section.header .w-container {
+    min-height: 0;
+}
+
+.nav-link {
+    color: #534E67;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 8px;
+    position: relative;
+    transition: color 0.3s ease 0s;
+}
+.nav-link:before, .nav-link:after {
+    background: none repeat scroll 0 0 #745785;
+    content: "";
+    height: 2px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    transform: translateY(-10px);
+    transition: opacity 0.3s ease 0s, transform 0.3s ease 0s;
+    width: 100%;
+}
+.nav-link:before {
+    top: 0;
+    transform: translateY(-10px);
+}
+.nav-link:after {
+    bottom: 0;
+    transform: translateY(10px);
+}
+.nav-link:hover, .nav-link:focus {
+    color: #745785;
+}
+.nav-link:hover:before, .nav-link:focus:before, .nav-link:hover:after, .nav-link:focus:after {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.linkcenter {
+    text-align: center;
+}
+.second-container {
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 100%;
+}
+.w-col.w-col-6 {
+    text-align: center;
+}
+.opportunities-image-cont {
+	margin-top: 60px;
+}
+#opportunity .w-inline-block {
+	-webkit-transform: none;
+    transform: none;
+    transition: all 100ms linear 0s;
+}
+#opportunity .w-inline-block:hover {
+	-webkit-transform: translate(0px, -2px);
+    transform: translate(0px, -2px);
+    transition: all 100ms linear 0s;
+}
+.opportunity-h3 {
+	text-align: left;
+}
+@media (max-width: 1135px) { 
+	.hero-bg, .content-bg, .section.footer {
+		background-size: contain;
+		background-attachment: scroll, scroll;
+		/*background-attachment: scroll, scroll;*/
+		background-position: 100% 0%;
+		background-repeat: no-repeat;
+	}
+	.content-bg {
+		background-attachment: scroll, scroll;
+		background-size: contain;
+		padding: 0;
+	}
+}
+@media (max-width: 991px) {
+	h2 {
+		text-shadow: 0 1px 6px rgba(0, 0, 0, 0.24);
+	}
+	.hero-bg, .content-bg, .section.footer {
+		background-size: cover;
+		/*background-attachment: scroll, scroll;*/
+		position: relative;
+		background-position: 100% 0%;
+	}
+	.content-bg {
+		background-attachment: scroll, scroll;
+		background-size: contain;
+		padding: 0;
+	}
+	.button {
+		text-shadow: 0 1px 0 #55595C;
+		transition: all 200ms ease 0s;
+	}
+	.section.footer {
+		background-image: url("../images/Exclusive_Luxury_Masterbedroom01.jpg");
+		/*background-position: 60% 27%;*/
+	}
+	.nav-link {
+		float: left;
+		text-shadow: 0 1px 0 white;
+		transition: all 200ms ease 0s;
+	}
+	.company-title {
+		text-shadow: 0 1px 0 white;
+		width: 100%;
+	}
+	.nav-bar {
+		margin-top: -3px;
+		padding-top: 0;
+	}
+	.hero-bg.content {
+	}
+	.snippet-img {
+		height: 166px;
+	}
+	.snippet {
+		transform: none;
+		transition: all 200ms ease 0s;
+	}
+	/*.content-bg {
+		background-image: url("../images/Exclusive_Luxury_Balcony01.JPG");
+		background-position: 50% 58%, 0 0;
+	}
+	.content-bg.two {
+		background-image: url("../images/Cascais_Guincho.png");
+		background-position: 50% 50%, 0 0;
+	}*/
+	.house-description {
+		text-shadow: 0 1px 0 white;
+	}
+	
+	.w-row.contacts .w-col {
+		float:none;
+		width: 100%;
+		text-align: left;
+	}
+	.w-row.contacts .w-col a, .w-col div {
+		padding-left:0;
+	}
+	.opportunities-image-cont {
+		margin-top: 20px;
+	}
+	.opportunities-image-cont img {
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	.opportunity-h3 {
+		text-align: center;
+	}
+}
+@media (max-width: 767px) {
+	h1 {
+		text-shadow: 0 2px 1px rgba(0, 0, 0, 0.24);
+	}
+	h2 {
+		text-shadow: 0 1px 6px rgba(0, 0, 0, 0.24);
+	}
+	.hero-bg, .section.footer {
+		/*background-size: auto auto;
+		background-attachment: scroll, scroll;
+		position: relative;
+		background-position: 0 center, 0 center;*/
+		/*background-position: 0% 0%;*/
+	    background-size: cover;
+	    position: relative;
+	}
+	.content-bg {
+		background-attachment: scroll, scroll;
+		background-size: contain;
+		padding: 0;
+	}
+	.second-container {
+		/*position: relative;*/
+		top: auto;
+	}
+	.hero-bg {
+		padding-top: 0;
+	}
+	img {
+		float: none;
+	}
+	.button {
+		font-size: 16px;
+		font-weight: 700;
+		margin-bottom: 33px;
+		padding: 16px 30px;
+		text-shadow: 0 1px 0 #55595C;
+		transition: all 200ms ease 0s;
+	}
+	.header {
+		color: #FFFFFF;
+	}
+	.section.footer {
+		background-image: url("../images/Exclusive_Luxury_Masterbedroom01.jpg");
+		/*background-position: 42% 0;*/
+		background-size: cover;
+	}
+	.nav-link {
+		float: none;
+		text-shadow: 0 1px 0 white;
+		transition: all 200ms ease 0s;
+	}
+	.nav-link:hover {
+		transition: all 200ms ease 0s;
+	}
+	.company-title {
+		margin-bottom: 33px;
+		margin-left: 0;
+		margin-top: 0;
+	}
+	.nav-bar {
+		float: none;
+		margin-bottom: 4px;
+		text-align: center;
+	}
+	.hero-bg {
+		background-image: url("../images/Luxury_House_Portugal2_r2.jpg");
+		/*background-position: 100% 50%;*/
+		background-size: cover;
+		min-height: 390px;
+		padding-left: 11px;
+		padding-right: 11px;
+		padding-top: 238px;
+	}
+	.hero-bg.content {
+		min-height: 290px;
+		padding-top: 205px;
+	}
+	.snippet-img {
+		height: 206px;
+	}
+	.snippet {
+		margin-bottom: 19px;
+		transition: all 200ms ease 0s;
+	}
+	.right-col {
+		margin-top: -42px;
+	}
+	.snippet-title {
+		padding-top: 6px;
+	}
+	.button-column {
+		padding-top: 61px;
+	}
+	.company-column {
+		float: none;
+		text-align: center;
+	}
+	.footer-nav-bar {
+		text-align: center;
+	}
+	.left-footer-col {
+		margin-bottom: 13px;
+		text-align: center;
+	}
+	.footer-text {
+		text-shadow: 0 1px 6px white;
+	}/*
+	.content-bg {
+		background-image: url("../images/Home2.JPG");
+		background-position: 50% 50%, 0 0;
+		min-height: 350px;
+		padding-top: 216px;
+	}
+	.content-bg.two {
+		background-image: url("../images/Cascais_Guincho.png");
+		background-position: 50% 0px, 0 0;
+	}*/
+	.button-telephone {
+		padding-bottom: 16px;
+		padding-top: 16px;
+		text-shadow: 0 1px 0 #55595C;
+	}
+	.opportunities-image-cont {
+		margin-top: 20px;
+	}
+	.opportunities-image-cont img {
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	.opportunity-h3 {
+		text-align: center;
+	}
+}
+@media (max-width: 639px) {
+	.hero-bg, .content-bg {
+		position: relative;
+	}
+	/*
+	.hero-bg, .content-bg, .section.footer {
+		background-size: contain;
+		background-attachment: scroll, scroll;
+		background-position: 100% 0;
+		position: relative;
+	}*/
+	.hero-bg, .section.footer {
+		/*background-size: auto auto;
+		background-attachment: scroll, scroll;
+		position: relative;
+		background-position: 0 center, 0 center;*/
+		/*background-position: 0% 0%;*/
+	    background-size: cover;
+	    position: relative;
+	}
+	.content-bg {
+		background-attachment: scroll, scroll;
+		background-size: contain;
+		padding: 0;
+	}
+	.hero-bg {
+		padding-top: 150px;
+	}
+	.second-container {
+		position: relative;
+		margin-top: 0;
+	}
+	.nav-bar {
+		padding-left: 0;
+	}
+	.nav-bar .nav-link {
+		float: left;
+	    margin: 0;
+	    width: 49%;
+	}
+	.opportunity-link {
+	    clear: left;
+	}
+	.opportunities-image-cont {
+		margin-top: 20px;
+	}
+	.opportunities-image-cont img {
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	.opportunity-h3 {
+		text-align: center;
+	}
+}
+@media (max-width: 479px) {
+	h1 {
+		text-shadow: 0 2px 1px rgba(0, 0, 0, 0.24);
+	}
+	h2 {
+		text-shadow: 0 1px 6px rgba(0, 0, 0, 0.24);
+	}
+	.hero-bg, .section.footer {
+		background-size: cover;/*background-size: auto auto;*/
+		background-attachment: scroll, scroll;
+		position: relative;
+	}
+	.content-bg {
+		background-attachment: scroll, scroll;
+		background-size: contain;
+		padding: 0;
+	}
+	.section.footer {
+		height: 200px;
+	}
+	.hero-bg {
+		padding-top: 0;
+	}
+	.section.header {
+		position: relative;
+	}
+	.second-container {
+		position: relative;
+		margin-top: 50px;/*100px*/
+	}
+	.button {
+		padding-bottom: 16px;
+		padding-top: 15px;
+		text-shadow: 0 1px 0 #55595C;
+		transition: all 200ms ease 0s;
+	}
+	.section.header {
+		padding-bottom: 8px;
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+	.section.footer {
+		background-image: url("../images/Exclusive_Luxury_Masterbedroom01.jpg");
+		background-position: 100% 0%;/*100% 0;*/
+		background-size: cover;
+	}
+	.nav-link {
+		display: block;
+		margin-bottom: 19px;
+		text-shadow: 0 1px 0 white;
+		transition: all 200ms ease 0s;
+	}
+	.company-title {
+		margin-bottom: 16px;
+		text-shadow: 0 1px 0 white;
+	}
+	.nav-bar {
+		padding-left: 0;
+	}
+	.hero-bg {
+		/*background-image: url("../images/Luxury_House_Portugal2.png");
+		background-position: 92% 50%;
+		background-size: cover;*/
+	}
+	.hero-bg.content {
+	}
+	.section-description {
+		width: 50%;
+	}
+	.snippet-img {
+	}
+	.snippet {
+		transition: all 200ms ease 0s;
+	}
+	.footer-text {
+		text-shadow: 0 1px 6px white;
+	}/*
+	.content-bg {
+		background-image: url("../images/Exclusive_Luxury_Pool01.JPG");
+		background-position: 43% 50%, 0 0;
+		background-size: cover, auto auto;
+		min-height: 330px;
+		padding-top: 172px;
+	}
+	.content-bg.two {
+		background-image: url("../images/Cascais_Guincho.png");
+		background-position: 50% 50%, 0 0;
+		background-size: cover, auto auto;
+	}*/
+	.button-telephone {
+		padding-bottom: 16px;
+		padding-top: 16px;
+		text-shadow: 0 1px 0 #55595C;
+	}
+	.contact-text {
+		text-shadow: 0 1px 6px white;
+	}
+	/*.image-logo {
+		padding-left: 0;
+		padding-right: 0;
+	}*/
+	.opportunities-image-cont {
+		margin-top: 20px;
+	}
+	.opportunities-image-cont img {
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	.opportunity-h3 {
+		text-align: center;
+	}
+}
+@media (max-width: 318px) { 
+	.second-container {
+		position: relative;
+		margin-top: 150px;
+	}
+	.hero-bg {
+		position: relative;
+		padding-top: 0;
+	}
+	.opportunities-image-cont {
+		margin-top: 20px;
+	}
+	.opportunities-image-cont img {
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	.opportunity-h3 {
+		text-align: center;
+	}
+}
+
