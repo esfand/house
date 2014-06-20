@@ -12,6 +12,7 @@ nbproject
 *.sublime-workspace
 PRIVATEDEVNOTES.md
 obj/
+bin/
 *.suo
 *.user
-
+*.pdb
