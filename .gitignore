@@ -11,3 +11,7 @@ nbproject
 *.sublime-project
 *.sublime-workspace
 PRIVATEDEVNOTES.md
+obj/
+*.suo
+*.user
+
