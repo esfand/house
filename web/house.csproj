@@ -21,6 +21,7 @@
     <Content Include="css\magnific-popup.css" />
     <Content Include="css\normalize.css" />
     <Content Include="css\style-bootstrap.css" />
+    <Content Include="favicon.ico" />
     <Content Include="images\1Cascais_AerialView.jpg" />
     <Content Include="images\1Golf_in_Cascais_Estoril.jpg" />
     <Content Include="images\1Luxury_Cascais_Bay_Area01.jpg" />
@@ -71,6 +72,7 @@
     <Content Include="images\ViewfromSuite_Cascais.jpg" />
     <Content Include="images\white_bed_sheet.png" />
     <Content Include="index.html" />
+    <Content Include="index.php" />
     <Content Include="js\jquery.magnific-popup.js" />
     <Content Include="js\script.js" />
     <Content Include="js\webfont.js" />
@@ -106,6 +108,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="static\img\9a41fc6b871af12e4d00ba4278018573" />
+    <Content Include=".htaccess" />
+    <Content Include="php.ini" />
     <None Include="web.Debug.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
